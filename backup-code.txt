@@ -1,0 +1,83 @@
+
+
+
+//java script code to show up the modal when we click on cards
+$("div.card").on("click",function(){
+        $("#myModal").modal('show');
+      })  
+
+--------------------------------------
+    $(document).ready(function(){
+      var i = 1;
+    $("button.new_item").on("click",function(){
+    $("div:nth-last-child(i%3)").after("<div class='card'><p>This is card 4</p></div>");
+    i++;    
+  })
+    })
+
+
+--------------------------------------
+  <div class="">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+        <div class="bg-danger">
+          <a class="nav-link bg-primary navbar-icono" href="#"> <i class="fa fa-home navbar-icono" style="font-size:18px;color:white"></i> </a>
+          <a class="navbar-brand navbar-texto p-2 text-light" href="#" >Your Notes</a>
+        </div>
+        <div class="container bg-light navbar-searcho justify-content-center">
+            <form class="d-flex col-md-7">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-outline-dark text-light" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="bg-info">
+          <a class="nav-link bg-warning navbar-icono" href="#"> <i class="fa fa-gear" style="font-size:18px;color:white"></i> </a>
+          <a class="nav-link text-light navbar-texto p-2 me-2" href="#"> Account </a>
+        </div>
+    </nav>
+  </div> 
+
+---------------------------------------
+
+ <div class="">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark align-items-center justify-content-between">
+        <div class="ps-2">
+          <a class="navbar-brand text-light" href="#" >Your Notes</a>
+        </div>
+        <div class="container justify-content-center">
+            <form class="d-flex col-md-6">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-outline-dark text-light" type="submit">Search</button>
+            </form>
+        </div>
+        <div class="">
+          <span class="text-light me-2"> Account </span>
+        </div>
+    </nav>
+  </div>
+
+------------------------------------------
+
+
+  <div class="">
+    <nav class="navbar navbar-expand-xl navbar-dark bg-dark align-items-center justify-content-between">
+      <div class="container-fluid">
+        <a class="navbar-brand text-light ps-2" href="#" >Your Notes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse m-1 py-3" id="navbarsExample09">
+          <div class="container justify-content-center">
+            <form class="d-flex col-md-auto">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-primary btn-outline-dark text-light" type="submit">Search</button>
+            </form>
+          </div>
+          <div class="">
+            <span class="text-light navbar-text me-2"> Account </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>

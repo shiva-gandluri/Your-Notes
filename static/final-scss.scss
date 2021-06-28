@@ -1,0 +1,86 @@
+
+ // Core
+
+@import "scss/custom/functions";
+@import "scss/bootstrap/functions";
+
+@import "scss/custom/variables";
+@import "scss/bootstrap/variables";
+
+@import "scss/custom/mixins";
+@import "scss/bootstrap/mixins";
+
+ // Bootstrap components
+
+@import "scss/bootstrap/root";
+@import "scss/bootstrap/reboot";
+@import "scss/bootstrap/type";
+@import "scss/bootstrap/images";
+@import "scss/bootstrap/code";
+@import "scss/bootstrap/grid";
+@import "scss/bootstrap/tables";
+@import "scss/bootstrap/forms";
+@import "scss/bootstrap/buttons";
+@import "scss/bootstrap/transitions";
+@import "scss/bootstrap/dropdown";
+@import "scss/bootstrap/button-group";
+@import "scss/bootstrap/input-group";
+@import "scss/bootstrap/custom-forms";
+@import "scss/bootstrap/nav";
+@import "scss/bootstrap/navbar";
+@import "scss/bootstrap/card";
+@import "scss/bootstrap/breadcrumb";
+@import "scss/bootstrap/pagination";
+@import "scss/bootstrap/badge";
+@import "scss/bootstrap/jumbotron";
+@import "scss/bootstrap/alert";
+@import "scss/bootstrap/progress";
+@import "scss/bootstrap/media";
+@import "scss/bootstrap/list-group";
+@import "scss/bootstrap/close";
+@import "scss/bootstrap/modal";
+@import "scss/bootstrap/tooltip";
+@import "scss/bootstrap/popover";
+@import "scss/bootstrap/carousel";
+@import "scss/bootstrap/utilities";
+@import "scss/bootstrap/print";
+
+ // Custom components
+
+ @import "scss/custom/alerts";
+ @import "scss/custom/buttons";
+ @import "scss/custom/dropdown";
+ @import "scss/custom/footer";
+ @import "scss/custom/forms";
+ @import "scss/custom/images";
+ @import "scss/custom/modal";
+ @import "scss/custom/navbar";
+ @import "scss/custom/type";
+ @import "scss/custom/tables";
+ @import "scss/custom/checkboxes-radio";
+ @import "scss/custom/fixed-plugin";
+ @import "scss/custom/sidebar-and-main-panel";
+ @import "scss/custom/misc";
+ @import "scss/custom/rtl";
+ @import "scss/custom/input-group";
+
+
+ // Vendor / Plugins
+
+@import "scss/custom/vendor/plugin-perfect-scrollbar";
+@import "scss/custom/vendor/plugin-animate-bootstrap-notify";
+
+// light mode
+
+@import "scss/custom/white-content";
+
+// Cards
+
+@import 'scss/custom/card';
+@import "scss/custom/cards/card-chart";
+@import "scss/custom/cards/card-map";
+@import "scss/custom/cards/card-user";
+@import "scss/custom/cards/card-task";
+@import "scss/custom/cards/card-plain";
+
+
