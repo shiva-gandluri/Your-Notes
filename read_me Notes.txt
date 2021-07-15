@@ -1,3 +1,9 @@
+Useful links:
+::::::::::::::::::::
+https://github.com/OmkarPathak/django-notekeeper/blob/fe08a4368a94b3e443cb286144fadd3e8fad03a4/notekeeper/notes/models.py#L79   --> This has models details
+
+ckeditor plugin : https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-skin
+
 :::::::::::::::::::
 Commands:
 :::::::::::::::::::
@@ -17,7 +23,7 @@ Python version: 3.6.5
 Django version installed : 3.2
 Pillow version installed : 8.2.0 
 Django-bootstrap-modal-forms : 2.2.0
-
+ckeditor version installed: 4.16.1
 
 :::::::::::::::::::
 Django:
@@ -48,6 +54,8 @@ colors:
 icons:
 	for google icons: <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
 
+ckeditor plugin : https://ckeditor.com/docs/ckeditor4/latest/api/CKEDITOR_config.html#cfg-skin
+
 
 ::::::::::::::::::
 Useful tags to include:
@@ -73,5 +81,6 @@ packages installed in virtualenv
 bootstrap --> pip install django-bootstrap-v5
 modal forms --> pip install django-bootstrap-modal-forms
 Pillow --> pip install Pillow
+ckeditor --> pip install django-ckeditor
 
 
